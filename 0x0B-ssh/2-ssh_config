@@ -1,3 +1,4 @@
-IdentityFile ~/.ssh/school
-PasswordAuthentication no
-PubkeyAuthentication yes
+# ssh config file
+Host *
+      PasswordAuthentication no
+      IdentifyFile ~/.ssh/school
